@@ -29,6 +29,7 @@ jobs:
             cd ~/projects/website
             git pull
             git status
+            echo "${{ secrets.PASSWORD }}" | sudo -S docker build -t website .
             docker build -t website .  
             docker stop website-cont || true
             docker rm website-cont || true
