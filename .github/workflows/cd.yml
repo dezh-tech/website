@@ -30,7 +30,6 @@ jobs:
             git pull
             git status
             echo "${{ secrets.PASSWORD }}" | sudo -S docker build -t website .
-            docker build -t website .  
-            docker stop website-cont || true
-            docker rm website-cont || true
-            docker run -p 4000:4000 -d --name website-cont website
+            sudo docker stop website-cont || true
+            sudo docker rm website-cont || true
+            sudo docker run -p 4000:4000 -d --name website-cont website
