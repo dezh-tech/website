@@ -1,16 +1,16 @@
 [{
         "name": "robotX",
-        "logo": "/public/companies/robotX.svg",
+        "logo": "/companies/robotX.svg",
         "website": "#"
     },
     {
         "name": "umbrella",
-        "logo": "/public/companies/umbrella.svg",
+        "logo": "/companies/umbrella.svg",
         "website": "#"
     },
     {
         "name": "terra",
-        "logo": "/public/companies/terra.svg",
+        "logo": "/companies/terra.svg",
         "website": "#"
     }
 ]
