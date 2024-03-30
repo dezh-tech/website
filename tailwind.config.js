@@ -4,7 +4,7 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
-  prefix: "",
+  // prefix: "",
   container: {
     center: true,
     padding: "2rem",
@@ -20,20 +20,14 @@ export default {
         background: "var(--background)"
       }
     },
-    fontFamily: "Neue Machina Inktrap",
+    fontFamily: {
+      Neue: 'Neue Machina'
+    },
     screens: {
-      'sm': {
-        'min': '360px',
-        'max': '767px'
-      },
-      'md': {
-        'min': '768px',
-        'max': '1023px'
-      },
-      // sm: "360px",
-      // md: "768px",
-      lg: "1024px",
-      xl: "1366px",
+      'sm': '0px',
+      'md': '768px',
+      'lg': "1024px",
+      'xl': "1366px",
       '2xl': "1536px",
       '3xl': "1920px",
     },
@@ -46,27 +40,27 @@ export default {
         ".container": {
           maxWidth: "100%",
           "@screen sm": {
-            // maxWidth: '640px',
+            // minWidth: '0',
             padding: "0 1rem",
           },
           "@screen md": {
-            // maxWidth: '768px',
+            // minWidth: '768px',
             padding: "0 1rem",
           },
           "@screen lg": {
-            // maxWidth: '1024px',
+            // minWidth: '1024px',
             padding: "0 2rem",
           },
           "@screen xl": {
-            // maxWidth: '1536px',
+            // minWidth: '1366px',
             padding: "0 2rem",
           },
           "@screen 2xl": {
-            // maxWidth: '1424px',
+            // minWidth: '1536px',
             padding: "0 64px",
           },
           "@screen 3xl": {
-            // maxWidth: '1792px',
+            // minWidth: '1920',
             padding: "0 64px",
           },
         },
