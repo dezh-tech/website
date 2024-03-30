@@ -14,7 +14,7 @@
     --secondary: #1D1D1D;
     --background: #E2DDD6;
 
-    font-family: "Neue Machina Inktrap", system-ui,
+    font-family: "Neue Machina", system-ui,
       sans-serif;
     color-scheme: light dark;
     color: var(--secondary);

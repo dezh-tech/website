@@ -1,14 +1,16 @@
 import Link from "components/ui/Link";
 import { links } from "./links";
+import { Logo } from "assets/icons";
+
 
 export function Header() {
   return (
     <header className="container mx-auto px-10  border-b border-secondary py-6">
       <nav className="flex justify-between items-center">
         <a href="/">
-          <img src="/logo.svg" alt="Logo" />
+          <Logo className="text-primary" />
         </a>
-        <ul className="list-disc  gap-9 md:flex hidden">
+        <ul className="list-disc gap-9 md:flex hidden">
           {links.map((link, key) => (
             <li key={key}>
               <Link href={link.link}>{link.name}</Link>

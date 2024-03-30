@@ -1,5 +1,5 @@
 {
-  "name": "website",
+  "name": "Dezh technology main website",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -32,3 +32,4 @@
     "vite-tsconfig-paths": "^4.3.2"
   }
 }
+
