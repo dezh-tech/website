@@ -33,3 +33,4 @@ jobs:
             sudo docker stop website-cont || true
             sudo docker rm website-cont || true
             sudo docker run -p 4000:4000 -d --name website-cont website
+            
