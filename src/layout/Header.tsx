@@ -2,6 +2,7 @@ import Link from "components/ui/Link";
 import { links } from "./links";
 import { Logo } from "assets/icons";
 
+
 export function Header() {
   return (
     <header className="container mx-auto px-10  border-b border-secondary py-6">

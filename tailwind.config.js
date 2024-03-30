@@ -60,7 +60,7 @@ export default {
             padding: "0 64px",
           },
           "@screen 3xl": {
-            // minWidth: '1920',
+            // minWidth: '1920px',
             padding: "0 64px",
           },
         },

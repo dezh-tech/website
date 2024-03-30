@@ -3,6 +3,7 @@
     font-family: "Neue Machina";
     src: url("/fonts/NeueMachina-Light.0tf"),
         url("/fonts/NeueMachina-Light.0tf") format("0tf");
+
     font-weight: 300;
     font-style: normal;
 }
@@ -12,10 +13,10 @@
     font-family: "Neue Machina";
     src: url("/fonts/NeueMachina-Regular.otf"),
         url("/fonts/NeueMachina-Regular.otf") format("otf");
+
     font-weight: 400;
     font-style: normal;
 }
-
 /* -- Extra bold -- */
 @font-face {
     font-family: "Neue Machina";
