@@ -16,7 +16,7 @@ export default function HeroSection() {
           </h6>
         </div>
       </div>
-      <div className="lg:pl-7 lg:border-l border-t lg:border-t-0 pb-16 flex-1 pt-8 lg:pt-[168px] space-y-12">
+      <div className="lg:pl-7 lg:border-l border-t lg:border-t-0 pb-16 flex-1 pt-8 lg:pt-[168px] space-y-12 flex flex-col items-center">
         <h6 className="text-lg">
           Dezh team projects allow developers to easily develop and manage
           distributed applications (DApps) and blockchain-based services,
