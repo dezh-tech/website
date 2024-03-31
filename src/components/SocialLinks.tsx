@@ -5,8 +5,12 @@ export default function SocialMediaLinks() {
     <ul className="flex gap-5">
       {socialMedias.map((socialMedia, key) => (
         <li key={key}>
-          <a target="_blank" href={socialMedia.link}>
-            <img src={socialMedia.logo} alt={socialMedia.name} />
+          <a draggable={false} target="_blank" href={socialMedia.link}>
+            <img
+              draggable={false}
+              src={socialMedia.logo}
+              alt={socialMedia.name}
+            />
           </a>
         </li>
       ))}

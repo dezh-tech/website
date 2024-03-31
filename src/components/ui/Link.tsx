@@ -13,6 +13,7 @@ const Link: React.FC<LinksT> = ({
 }) => {
   return (
     <a
+      draggable={false}
       className={cn(
         "transition-all duration-300 border-b border-transparent  ",
         {

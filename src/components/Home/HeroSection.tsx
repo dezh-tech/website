@@ -10,17 +10,21 @@ export default function HeroSection() {
             Building the future of decentralized generation of WEB
           </h1>
           <h6 className="text-lg pb-2">
-            We are working for a more decentralized web and internet in future for everyone.
+            We are working for a more decentralized web and internet in future
+            for everyone.
           </h6>
         </div>
       </div>
       <div className="lg:pl-7 lg:border-l border-t lg:border-t-0 pb-16 flex-1 pt-8 lg:pt-[168px] space-y-12 flex flex-col items-center">
         <h6 className="text-lg">
-          At Dezh Technologies, we are building tools,
-          apps, services and infras that make decentralized
-          web happens.
+          At Dezh Technologies, we are building tools, apps, services and infras
+          that make decentralized web happens.
         </h6>
-        <img src="/ConnectedCubes.svg" alt="Connected cubes" />
+        <img
+          draggable={false}
+          src="/ConnectedCubes.svg"
+          alt="Connected cubes"
+        />
       </div>
     </section>
   );
