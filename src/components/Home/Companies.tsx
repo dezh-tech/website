@@ -19,9 +19,14 @@ const Companies = () => {
       </div>
       <div className="flex flex-wrap  gap-16 justify-center">
         {companiesData.map((company) => (
-          <a target="_blank" href={company.website} key={company.name}>
+          <a
+            draggable={false}
+            target="_blank"
+            href={company.website}
+            key={company.name}
+          >
             <span className="sr-only">{company.name}</span>
-            <img src={company.logo} alt={company.name} />
+            <img draggable={false} src={company.logo} alt={company.name} />
           </a>
         ))}
       </div>

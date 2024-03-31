@@ -10,9 +10,9 @@ export const PointerIcon = ({ className }: IconProps) => {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_32_7568)">
-        <g clip-path="url(#clip1_32_7568)">
-          <g clip-path="url(#clip2_32_7568)">
+      <g clipPath="url(#clip0_32_7568)">
+        <g clipPath="url(#clip1_32_7568)">
+          <g clipPath="url(#clip2_32_7568)">
             <path
               d="M23.1601 0L21.0234 0L21.0234 44.1853H23.1601L23.1601 0Z"
               fill="#FF4800"

@@ -4,14 +4,34 @@
 @tailwind components;
 @tailwind utilities;
 
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}
+
 @layer base {
   * {
-    scroll-behavior: smooth;
     @apply border-secondary;
   }
 
   .noisy-bg {
-    background-image: url("/public/Noisy-Background.svg");
+    background-image: url("/Noisy-Background.svg");
 
   }
 
@@ -25,13 +45,14 @@
     color-scheme: light dark;
     color: var(--secondary);
     background-color: var(--background);
-    background-image: url("/public/Noisy-Background.svg");
+    background-image: url("/Noisy-Background.svg");
     background-size: cover;
     background-position: center;
     font-synthesis: none;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: smooth;
 
   }
 
