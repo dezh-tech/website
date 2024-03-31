@@ -2,6 +2,7 @@ import { Logo, MessageIcon } from "assets/icons";
 import SocialMediaLinks from "components/SocialLinks";
 
 export function Footer() {
+  const year = new Date().getFullYear();
   return (
     <footer className="container py-[56px] border-t space-y-10">
       <section className="flex flex-col lg:flex-row lg:justify-between items-center gap-y-12 ">
@@ -20,9 +21,8 @@ export function Footer() {
           <MessageIcon />
           <a href="mailto:hi@dezh.tech">hi@dezh.tech</a>
         </div>
-        <span>© 2024 Dezh.tech, All Rights Reserved</span>
+        <span>© {year} Dezh.tech, All Rights Reserved</span>
       </section>
     </footer>
   );
-
 }

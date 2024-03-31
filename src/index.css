@@ -6,19 +6,28 @@
 
 @layer base {
   * {
+    scroll-behavior: smooth;
     @apply border-secondary;
+  }
+
+  .noisy-bg {
+    background-image: url("/public/Noisy-Background.svg");
+
   }
 
   :root {
     --primary: #FF4800;
     --secondary: #1D1D1D;
     --background: #E2DDD6;
-
+    word-spacing: -2px;
     font-family: "Neue Machina", system-ui,
       sans-serif;
     color-scheme: light dark;
     color: var(--secondary);
     background-color: var(--background);
+    background-image: url("/public/Noisy-Background.svg");
+    background-size: cover;
+    background-position: center;
     font-synthesis: none;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
