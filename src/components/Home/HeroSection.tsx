@@ -7,20 +7,18 @@ export default function HeroSection() {
         <PointerIcon />
         <div className="space-y-6 lg:py-6">
           <h1 className="lg:text-[86px] text-[46px] leading-[47px] md:text-[56px] md:leading-[55px]  lg:leading-[91px]">
-            Building Bridges to Blockchain's Distributed Ecosystem
+            Building the future of decentralized generation of WEB
           </h1>
           <h6 className="text-lg pb-2">
-            The Dezh team provides blockchain-based tools for developing and
-            running programs and services across various industries in a simple
-            and scalable manner.
+            We are working for a more decentralized web and internet in future for everyone.
           </h6>
         </div>
       </div>
       <div className="lg:pl-7 lg:border-l border-t lg:border-t-0 pb-16 flex-1 pt-8 lg:pt-[168px] space-y-12 flex flex-col items-center">
         <h6 className="text-lg">
-          Dezh team projects allow developers to easily develop and manage
-          distributed applications (DApps) and blockchain-based services,
-          facilitating the adoption of blockchain in different industries.
+          At Dezh Technologies, we are building tools,
+          apps, services and infras that make decentralized
+          web happens.
         </h6>
         <img src="/ConnectedCubes.svg" alt="Connected cubes" />
       </div>
