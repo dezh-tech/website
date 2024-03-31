@@ -1,16 +1,7 @@
-[{
-        "name": "robotX",
-        "logo": "/companies/robotX.svg",
-        "website": "#"
-    },
+[
     {
-        "name": "umbrella",
-        "logo": "/companies/umbrella.svg",
-        "website": "#"
-    },
-    {
-        "name": "terra",
-        "logo": "/companies/terra.svg",
-        "website": "#"
+        "name": "Zurvan Labs",
+        "logo": "/companies/zurvanlabs.svg",
+        "website": "https://github.com/zurvan-lab"
     }
 ]
