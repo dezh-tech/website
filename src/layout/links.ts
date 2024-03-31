@@ -5,15 +5,11 @@ type LinkT = {
 
 export const links: LinkT[] = [
   {
-    name: "Our Project",
-    link: "#our-project",
+    name: "Our Partners",
+    link: "#our-Partners",
   },
   {
-    name: "Services",
-    link: "#services",
-  },
-  {
-    name: "About Us",
-    link: "#about",
+    name: "Community",
+    link: "#community",
   },
 ];

@@ -3,7 +3,7 @@ import Link from "components/ui/Link";
 
 export default function JoinCommunity() {
   return (
-    <div className="lg:py-[94px] py-8 container">
+    <section id="community" className="lg:py-[94px] py-8 container">
       <div className=" flex  flex-col lg:flex-row  text-center lg:text-start gap-[58px]  items-center px-10 py-[82px] border">
         <div className="flex flex-col lg:flex-row items-center gap-6 flex-1">
           <DiscordIcon />
@@ -26,6 +26,6 @@ export default function JoinCommunity() {
           Join Dezh on Discord
         </Link>
       </div>
-    </div>
+    </section>
   );
 }

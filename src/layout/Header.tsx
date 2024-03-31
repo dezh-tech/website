@@ -13,11 +13,13 @@ export function Header() {
         <ul className="list-disc gap-9 md:flex hidden">
           {links.map((link, key) => (
             <li key={key}>
-              <Link href={link.link}>{link.name}</Link>
+              <Link className="text-xl" href={link.link}>
+                {link.name}
+              </Link>
             </li>
           ))}
         </ul>
-        <Link variant="primary" href="#contact">
+        <Link className="text-xl" variant="primary" href="mailto:hi@dezh.tech">
           Contact us
         </Link>
       </nav>
