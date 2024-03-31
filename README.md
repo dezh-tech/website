@@ -1,11 +1,14 @@
+<p align="center">
+    <img alt="Dezh Technologies" src="./public/fav-icon.svg" width="150" height="150" />
+</p>
 
+<h3 align="center">
+Building the future of decentralized generation of WEB
+</h3>
 
+<br/>
 
-
-```
-# The Dezh Technologies Official Website
-
-Welcome to the repository for the main website of Dezh Technology. This README will provide you with essential information about the project structure, setup instructions, available scripts, and deployment process.
+Welcome to the repository for the main website of Dezh Technologies This README will provide you with essential information about the project structure, setup instructions, available scripts, and deployment process.
 
 ## Project Overview
 
@@ -101,4 +104,3 @@ This project is licensed under the [MIT License](LICENSE).
 ---
 
 Thank you for using Dezh Technology! If you have any questions or issues, please don't hesitate to contact us. Visit our [homepage](https://dezh.tech) for more information about our products and services.
-```
