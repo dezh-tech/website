@@ -9,9 +9,9 @@ const Companies = () => {
           <PointerIcon />
           <h3 className="text-[56px] leading-[53px]">Our Partners</h3>
           <p className="text-lg">
-            We are working with industry leading projects over the crypto world
+            We are working with industry leading Companies over the crypto world
             together to boost the process of our mission in decentralized
-            culture
+            web
           </p>
         </div>
       </div>
