@@ -10,7 +10,7 @@ export function Footer() {
           <a draggable={false} href="/">
             <Logo className="text-secondary" />
           </a>
-          <h5 className="text-[22px] leading-[53px]">
+          <h5 className="title-3">
             Building the future of decentralized generation of WEB
           </h5>
         </div>
