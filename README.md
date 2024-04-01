@@ -18,7 +18,7 @@ This repository contains the source code for the main website of Dezh Technology
 
 If anyone wants to add their logo to our partners section, they should follow these steps:
 
-1. Add the logo with `230px 80px` size and `#FFFFFF` color to the `public/companies` directory with an `.svg` extension. The SVG name should be the company or team name. For example, `google.svg`.
+1. Add the logo with `#FFFFFF` color to the `public/companies` directory with an `.svg` extension. The SVG name should be the company or team name. For example, `google.svg`.
 
 2. Change the `data/companies.json` file and add their information. The JSON structure should be as follows:
 

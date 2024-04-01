@@ -39,7 +39,6 @@ html.lenis body {
     --primary: #FF4800;
     --secondary: #1D1D1D;
     --background: #E2DDD6;
-    word-spacing: -2px;
     font-family: "Neue Machina", system-ui,
       sans-serif;
     color-scheme: light dark;
@@ -52,24 +51,86 @@ html.lenis body {
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    scroll-behavior: smooth;
+
+
+    /* spacing */
+
+    --sp0: 0;
+    --sp1: 0.25rem;
+    --sp2: 0.5rem;
+    --sp3: 10px;
+    --sp4: 12px;
+    --sp5: 16px;
+    --sp6: 20px;
+    --sp7: 24px;
+    --sp8: 2rem;
+    --s9: 40px;
+    --s10: 48px;
+    --s11: 64px;
+    --s12: 80px;
+    --sp13: 96px;
+    --sp14: 128px;
+    --sp15: 160px;
+    --sp16: 192px;
+    --sp17: 224px;
+    --sp18: 256px;
 
   }
 
-  h1 {
-    @apply text-2xl;
-  }
-
-  h2 {
-    @apply text-xl;
-  }
-
-  h3 {
-    @apply text-lg;
-  }
 
   a {
     @apply no-underline;
+  }
+}
+
+/* Typography */
+
+@layer base {
+  .heading-1 {
+    @apply text-[5.375rem] leading-[91px] -tracking-[2px]
+    /*  font-size: 86px */
+  }
+
+  .heading-2 {
+    @apply text-[3.5rem] leading-[53px] -tracking-wider
+    /*  font-size: 56px */
+  }
+
+  .heading-3 {
+    @apply text-[2.875rem] leading-[47px] -tracking-wider
+    /*  font-size: 46px */
+  }
+
+  .title-1 {
+    @apply text-[2rem] leading-[40px] -tracking-wider
+    /*  font-size: 32px */
+  }
+
+  .title-2 {
+    @apply text-[1.75rem] leading-[33px] -tracking-wider
+    /*  font-size: 28px */
+  }
+
+  .title-3 {
+    @apply text-[1.375rem] leading-[27px] -tracking-wider
+    /*  font-size: 22px */
+  }
+
+  .title-4 {
+    @apply text-[1.25rem] leading-[24px] -tracking-wider
+    /*  font-size: 20px */
+  }
+
+  h1 {
+    @apply heading-1;
+  }
+
+  h2 {
+    @apply heading-2;
+  }
+
+  h3 {
+    @apply heading-3;
   }
 }
 

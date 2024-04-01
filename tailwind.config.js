@@ -14,6 +14,26 @@ export default {
   },
   theme: {
     extend: {
+        spacing: {
+          "sp1": "var(--sp1)",
+          "sp2": "var(--sp2)",
+          "sp3": "var(--sp3)",
+          "sp4": "var(--sp4)",
+          "sp5": "var(--sp5)",
+          "sp6": "var(--sp6)",
+          "sp7": "var(--sp7)",
+          "sp8": "var(--sp8)",
+          "sp9": "var(--s9)",
+          "sp10": "var(--s10)",
+          "sp11": "var(--s11)",
+          "sp12": "var(--s12)",
+          "sp13": "var(--sp13)",
+          "sp14": "var(--sp14)",
+          "sp15": "var(--sp15)",
+          "sp16": "var(--sp16)",
+          "sp17": "var(--sp17)",
+          "sp18": "var(--sp18)",
+        },
       colors: {
         primary: "var(--primary)",
         secondary: "var(--secondary)",
@@ -49,7 +69,7 @@ export default {
           },
           "@screen lg": {
             // minWidth: '1024px',
-            padding: "0 2rem",
+            padding: "0 1.5rem",
           },
           "@screen xl": {
             // minWidth: '1366px',

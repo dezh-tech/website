@@ -20,14 +20,14 @@ export function Header() {
             <li key={key}>
               <button
                 onClick={() => handleClickScroll(link.link)}
-                className="text-xl"
+                className="title-4 transition-all duration-300  border-b border-transparent hover:border-secondary"
               >
                 {link.name}
               </button>
             </li>
           ))}
         </ul>
-        <Link className="text-xl" variant="primary" href="mailto:hi@dezh.tech">
+        <Link className="title-4" variant="primary" href="mailto:hi@dezh.tech">
           Contact us
         </Link>
       </nav>

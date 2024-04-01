@@ -8,10 +8,10 @@ export default function JoinCommunity() {
         <div className="flex flex-col lg:flex-row items-center gap-6 flex-1">
           <DiscordIcon />
           <div className="max-w-[750px] space-y-2">
-            <h3 className=" text-[2rem] font-extrabold leading-[53px]">
+            <h3 className=" title-1 font-extrabold ">
               Join our friendly community
             </h3>
-            <p className="text-lg leading-[25px]">
+            <p className="text-lg -tracking-tighter ">
               The latest news about our product, testing and discussion of
               updates. A quick and convenient exchange of information with
               colleagues.
