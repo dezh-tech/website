@@ -1,13 +1,13 @@
 [
     {
-        "name": "linkedin",
-        "link": "https://www.linkedin.com/company/dezh-tech/",
-        "logo": "/socialMedia/linkedin.svg"
-    },
-    {
         "name": "github",
         "link": "https://github.com/dezh-tech",
         "logo": "/socialMedia/github.svg"
+    },
+    {
+        "name": "nostr",
+        "link": "https://njump.me/dezh.tech",
+        "logo": "/socialMedia/nostr.svg"
     },
     {
         "name": "discord",
@@ -18,10 +18,5 @@
         "name": "telegram",
         "link": "https://t.me/dezh_tech",
         "logo": "/socialMedia/telegram.svg"
-    },
-    {
-        "name": "x",
-        "link": "https://x.com/dezh_tech",
-        "logo": "/socialMedia/x.svg"
     }
 ]
