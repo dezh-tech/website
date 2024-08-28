@@ -133,3 +133,8 @@ html.lenis body {
     @apply heading-3;
   }
 }
+
+:not(input):not(textarea) {
+	-moz-user-select: none;
+	user-select: none;
+}
