@@ -3,7 +3,7 @@
 </p>
 
 <h3 align="center">
-Building the future of decentralized generation of WEB
+Together we stand, Independent we fall.
 </h3>
 
 <br/>
