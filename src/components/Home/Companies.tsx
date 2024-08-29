@@ -31,8 +31,8 @@ const Companies = () => {
           <PointerIcon />
           <h3 className="heading-2">Our Partners</h3>
           <p className="text-lg -tracking-tighter">
-            We are working with industry leading Companies over the crypto world
-            together to boost the process of our mission in decentralized web
+            We are working with leading tech team and companies worldwide to boost
+            our mission in open society!
           </p>
         </div>
       </div>

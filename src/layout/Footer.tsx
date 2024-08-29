@@ -11,7 +11,7 @@ export function Footer() {
             <Logo className="text-secondary" />
           </a>
           <h5 className="title-3">
-            Building the future of decentralized generation of WEB
+          Together we stand, Independent we fall.
           </h5>
         </div>
         <div>
