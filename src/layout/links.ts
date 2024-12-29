@@ -12,4 +12,8 @@ export const links: LinkT[] = [
     name: "Community",
     link: "community",
   },
+  {
+    name: "Documents",
+    link: "https://docs.dezh.tech/",
+  },
 ];
