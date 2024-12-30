@@ -1,5 +1,10 @@
 [
     {
+        "name": "JellyFish",
+        "logo": "/companies/jellyfish.svg",
+        "website": "https://jellyfish.land"
+    },
+    {
         "name": "Zurvan Labs",
         "logo": "/companies/zurvanlabs.svg",
         "website": "https://github.com/zurvan-lab"

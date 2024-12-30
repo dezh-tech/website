@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 49 49" width="49" height="49">
+	<title>github-svg</title>
+	<defs>
+		<image  width="49" height="49" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADEAAAAxCAMAAABEQrEuAAAAAXNSR0IB2cksfwAAATVQTFRFHR0dHR0dHR0dKCgoTk5OUVFRSkpKJSUlKSkphoaGra2twcHBxcXFv7+/qKiofn5+QkJCIyMjqqqqAAAAh4eHKysraGhoISEhxsbGzc3NODg4e3t7RkZGWVlZSUlJu7u7kJCQdHR0X19fUFBQSEhIS0tLcHBwm5ub1NTUVVVVgoKCb29vHh4eNTU1LCwsHx8fgICAvb29ICAgn5+f5OTkz8/PXV1dLy8vQUFBQEBAfX19////3Nzcs7OzdXV16+vrhISEl5eXV1dX+Pj4mpqarq6uioqKY2NjuLi4nJycNzc3Pz8/Q0NDsbGxtLS0PT09MTExMjIyTExMVFRUXl5ejY2Nd3d3Ozs7sLCwo6Ojy8vLWlpaeHh4lpaWYmJir6+vc3NziYmJjo6OxMTEi4uLampqiIiIld6XJwAAAGd0Uk5TQID///////////+Nc5r//////wD/////bUD//////7P//////////xT//////////6b//wAz//////8AAOb/AP///wD/////xv/////z4P////////////n/Tf//////////ev///3990zoAAAGNSURBVHicY2RgZCAJ/GdkHNUxOHVAWYyMv4Ek2z9mRij4iFOHAJTB+I5B+AsXQgkz42scOsR+Q2g2RsYfqMZyPsOvAwvgekqqDgbuJ/h08EA8/IOTEeGBH1xvcesQuwk3Tlj0JYwpcR2nDg7BaxCuqBjjFV3Gx1BJOcYLuHR8/gPVIAOUOWN6B2a06ilcOtROQngWQGHGm+IwGxm0j+DS8fEfhGfIwcDA8vOU3WWorN5BXDqY30B4DsBovMT1WlT3PIRvtBeXDuM9UK4rI+OTq0Ca1ZnxnTDjMestuHRYP4EFCjLwPYJbB4PtJiw6HC7i0SFwH65OS5XxutZGJh8mxn0MeHQ4r4FpCGXcjbAFjw63lVA+Gzeyu/DocL8KjQK9x0TqYJC6CqE5OYjV4bEcTCGSFEEdnsvAlMxXonV4LQVTMVuJ1uGzGEzFbSZax89vYAo1qPDqEL0FpuI3Ea2D4T2YTNg4KHQkbkDRkbSeoI5kaOEkMQdMBXzmRNLw/t11TB1EglEdtNVBcvsKAHNzuWFQ68AwAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+	</style>
+	<use id="Nostrich Head (1)" href="#img1" x="0" y="0"/>
+</svg>
