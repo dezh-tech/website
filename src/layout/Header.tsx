@@ -3,12 +3,6 @@ import { links } from "./links";
 import { Logo } from "assets/icons";
 
 export function Header() {
-  const handleClickScroll = (id: string) => {
-    const element = document.getElementById(id);
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-    }
-  };
   return (
     <header className="container mx-auto px-10  border-b border-secondary py-6">
       <nav className="flex justify-between items-center">
@@ -16,16 +10,20 @@ export function Header() {
           <Logo className="text-primary" />
         </a>
         <ul className="list-disc gap-9 md:flex hidden">
-          {links.map((link, key) => (
-            <li key={key}>
-              <button
-                onClick={() => handleClickScroll(link.link)}
-                className="title-4 transition-all duration-300  border-b border-transparent hover:border-secondary"
-              >
-                {link.name}
-              </button>
-            </li>
-          ))}
+          {links.map((link, key) => {
+            const isExternalLink = link.link.includes("https");
+            return (
+              <li key={key}>
+                <a
+                  href={link.link}
+                  target={isExternalLink ? "_blank" : "_self"}
+                  className="title-4 transition-all duration-300  border-b border-transparent hover:border-secondary"
+                >
+                  {link.name}
+                </a>
+              </li>
+            );
+          })}
         </ul>
         <Link className="title-4" variant="primary" href="mailto:hi@dezh.tech">
           Contact us
