@@ -1,0 +1,10 @@
+{
+  "allowsNostr": true,
+  "minSendable": 1000,
+  "maxSendable": 100000000000,
+  "metadata": "[[\"text/plain\",\"Paying Dezh Technologies\"],[\"text/identifier\",\"dezh@coinos.io\"]]",
+  "nostrPubkey": "ba80990666ef0b6f4ba5059347beb13242921e54669e680064ca755256a1e3a6",
+  "commentAllowed": 512,
+  "callback": "https://coinos.io/api/lnurl/2bfd6f53-c5cf-40cf-a2ee-fe541214cad3",
+  "tag": "payRequest"
+}
