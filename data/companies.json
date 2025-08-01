@@ -1,17 +1,7 @@
 [
     {
-        "name": "JellyFish",
-        "logo": "/companies/jellyfish.svg",
-        "website": "https://jellyfish.land"
-    },
-    {
         "name": "Vertex Labs",
         "logo": "/companies/vertex.svg",
         "website": "https://vertexlab.io"
-    },
-    {
-        "name": "Pactus",
-        "logo": "/companies/pactus.svg",
-        "website": "https://pactus.org"
     }
 ]
